@@ -1,0 +1,9 @@
+.filter_container{
+
+      padding-bottom:50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 20px;
+      font-family: 'Fredoka One', cursive;
+}

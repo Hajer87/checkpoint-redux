@@ -1,0 +1,14 @@
+.Modal_input {
+ 
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  height: 50px;
+  color:violet;
+  font-size: large;
+  letter-spacing: 5px;
+  font-family: 'Fredoka One', cursive;
+
+}

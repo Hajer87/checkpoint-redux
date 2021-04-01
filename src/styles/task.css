@@ -1,0 +1,32 @@
+.task_container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+      border-radius: 10px;
+      border: solid;
+      background-color:rgb(83, 6, 155);  
+      padding:20px;
+      margin: 10px;
+}
+.task_description{
+      display: flex;
+      flex-direction: row;
+}
+.task{
+      color: rgb(236, 177, 177);
+     
+      font-family: 'Fredoka One', cursive;
+      font-size: 20px;
+      letter-spacing: 5px;
+
+}
+.icon{
+      background-color: transparent;
+      border: none;
+      color: white;
+      margin:5px;
+}
+.check{
+    padding-right: 10px;
+}
