@@ -10,6 +10,11 @@ import { FaEdit, FaTrash } from "react-icons/fa";
 
 const Task = ({ task }) => {
   const dispatch = useDispatch();
+  const [checked, setChecked] = useState(false);
+
+  const chechboxClickHandler = ( ) => {
+      setChecked(!checked)}
+     
 
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -20,8 +25,10 @@ const Task = ({ task }) => {
         <Form.Check
         className='check'
           type="checkbox"
-          id="Done-undone"
-          onClick={() => dispatch(doneTask(task.id))}
+          id={task.id}
+          onClick={() => {return dispatch(doneTask(task.id)),chechboxClickHandler() }}
+          checked={task.completed} 
+       
         />
         <span
           className="task"
